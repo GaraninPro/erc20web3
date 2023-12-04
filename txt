@@ -1,0 +1,121 @@
+Compiling 30 files with 0.8.21
+Solc 0.8.21 finished in 7.84s
+Compiler run [32msuccessful![0m
+Analysing contracts...
+Running tests...
+Uncovered for script/DeployMyToken.s.sol:
+- Function "run" (location: source ID 26, line 10, chars 244-419, hits: 0)
+- Line (location: source ID 26, line 11, chars 296-315, hits: 0)
+- Statement (location: source ID 26, line 11, chars 296-315, hits: 0)
+- Line (location: source ID 26, line 12, chars 325-365, hits: 0)
+- Statement (location: source ID 26, line 12, chars 325-365, hits: 0)
+- Statement (location: source ID 26, line 12, chars 338-365, hits: 0)
+- Line (location: source ID 26, line 13, chars 375-393, hits: 0)
+- Statement (location: source ID 26, line 13, chars 375-393, hits: 0)
+- Line (location: source ID 26, line 14, chars 403-412, hits: 0)
+- Statement (location: source ID 26, line 14, chars 403-412, hits: 0)
+
+Uncovered for src/CrabToken.sol:
+- Function "name" (location: source ID 27, line 7, chars 135-223, hits: 0)
+- Line (location: source ID 27, line 8, chars 197-216, hits: 0)
+- Statement (location: source ID 27, line 8, chars 197-216, hits: 0)
+- Function "totalSupply" (location: source ID 27, line 11, chars 229-315, hits: 0)
+- Line (location: source ID 27, line 12, chars 292-308, hits: 0)
+- Statement (location: source ID 27, line 12, chars 292-308, hits: 0)
+- Function "decimals" (location: source ID 27, line 15, chars 321-395, hits: 0)
+- Line (location: source ID 27, line 16, chars 379-388, hits: 0)
+- Statement (location: source ID 27, line 16, chars 379-388, hits: 0)
+- Function "balanceOf" (location: source ID 27, line 19, chars 401-508, hits: 0)
+- Line (location: source ID 27, line 20, chars 476-501, hits: 0)
+- Statement (location: source ID 27, line 20, chars 476-501, hits: 0)
+- Function "transfer" (location: source ID 27, line 23, chars 514-808, hits: 0)
+- Line (location: source ID 27, line 24, chars 579-644, hits: 0)
+- Statement (location: source ID 27, line 24, chars 579-644, hits: 0)
+- Statement (location: source ID 27, line 24, chars 606-644, hits: 0)
+- Statement (location: source ID 27, line 24, chars 606-627, hits: 0)
+- Statement (location: source ID 27, line 24, chars 630-644, hits: 0)
+- Line (location: source ID 27, line 26, chars 655-688, hits: 0)
+- Statement (location: source ID 27, line 26, chars 655-688, hits: 0)
+- Line (location: source ID 27, line 27, chars 698-724, hits: 0)
+- Statement (location: source ID 27, line 27, chars 698-724, hits: 0)
+- Line (location: source ID 27, line 28, chars 734-801, hits: 0)
+- Statement (location: source ID 27, line 28, chars 734-801, hits: 0)
+- Branch (branch: 0, path: 0) (location: source ID 27, line 28, chars 734-801, hits: 0)
+- Branch (branch: 0, path: 1) (location: source ID 27, line 28, chars 734-801, hits: 0)
+
+Anchors for Contract "DeployMyToken" (solc 0.8.21+commit.d9974bed.Linux.gcc, source ID 26):
+- IC 109 -> Item 26
+  - Refers to item: Function "run" (location: source ID 26, line 10, chars 244-419, hits: 0)
+- IC 229 -> Item 27
+  - Refers to item: Line (location: source ID 26, line 11, chars 296-315, hits: 0)
+- IC 229 -> Item 28
+  - Refers to item: Statement (location: source ID 26, line 11, chars 296-315, hits: 0)
+- IC 326 -> Item 29
+  - Refers to item: Line (location: source ID 26, line 12, chars 325-365, hits: 0)
+- IC 326 -> Item 30
+  - Refers to item: Statement (location: source ID 26, line 12, chars 325-365, hits: 0)
+- IC 338 -> Item 31
+  - Refers to item: Statement (location: source ID 26, line 12, chars 338-365, hits: 0)
+- IC 432 -> Item 32
+  - Refers to item: Line (location: source ID 26, line 13, chars 375-393, hits: 0)
+- IC 432 -> Item 33
+  - Refers to item: Statement (location: source ID 26, line 13, chars 375-393, hits: 0)
+- IC 529 -> Item 34
+  - Refers to item: Line (location: source ID 26, line 14, chars 403-412, hits: 0)
+- IC 529 -> Item 35
+  - Refers to item: Statement (location: source ID 26, line 14, chars 403-412, hits: 0)
+
+Anchors for Contract "CrabToken" (solc 0.8.21+commit.d9974bed.Linux.gcc, source ID 27):
+- IC 92 -> Item 0
+  - Refers to item: Function "name" (location: source ID 27, line 7, chars 135-223, hits: 0)
+- IC 261 -> Item 1
+  - Refers to item: Line (location: source ID 27, line 8, chars 197-216, hits: 0)
+- IC 261 -> Item 2
+  - Refers to item: Statement (location: source ID 27, line 8, chars 197-216, hits: 0)
+- IC 122 -> Item 3
+  - Refers to item: Function "totalSupply" (location: source ID 27, line 11, chars 229-315, hits: 0)
+- IC 322 -> Item 4
+  - Refers to item: Line (location: source ID 27, line 12, chars 292-308, hits: 0)
+- IC 322 -> Item 5
+  - Refers to item: Statement (location: source ID 27, line 12, chars 292-308, hits: 0)
+- IC 152 -> Item 6
+  - Refers to item: Function "decimals" (location: source ID 27, line 15, chars 321-395, hits: 0)
+- IC 339 -> Item 7
+  - Refers to item: Line (location: source ID 27, line 16, chars 379-388, hits: 0)
+- IC 339 -> Item 8
+  - Refers to item: Statement (location: source ID 27, line 16, chars 379-388, hits: 0)
+- IC 182 -> Item 9
+  - Refers to item: Function "balanceOf" (location: source ID 27, line 19, chars 401-508, hits: 0)
+- IC 348 -> Item 10
+  - Refers to item: Line (location: source ID 27, line 20, chars 476-501, hits: 0)
+- IC 348 -> Item 11
+  - Refers to item: Statement (location: source ID 27, line 20, chars 476-501, hits: 0)
+- IC 230 -> Item 12
+  - Refers to item: Function "transfer" (location: source ID 27, line 23, chars 514-808, hits: 0)
+- IC 418 -> Item 13
+  - Refers to item: Line (location: source ID 27, line 24, chars 579-644, hits: 0)
+- IC 418 -> Item 14
+  - Refers to item: Statement (location: source ID 27, line 24, chars 579-644, hits: 0)
+- IC 420 -> Item 15
+  - Refers to item: Statement (location: source ID 27, line 24, chars 606-644, hits: 0)
+- IC 429 -> Item 16
+  - Refers to item: Statement (location: source ID 27, line 24, chars 606-627, hits: 0)
+- IC 420 -> Item 17
+  - Refers to item: Statement (location: source ID 27, line 24, chars 630-644, hits: 0)
+- IC 450 -> Item 18
+  - Refers to item: Line (location: source ID 27, line 26, chars 655-688, hits: 0)
+- IC 450 -> Item 19
+  - Refers to item: Statement (location: source ID 27, line 26, chars 655-688, hits: 0)
+- IC 535 -> Item 20
+  - Refers to item: Line (location: source ID 27, line 27, chars 698-724, hits: 0)
+- IC 535 -> Item 21
+  - Refers to item: Statement (location: source ID 27, line 27, chars 698-724, hits: 0)
+- IC 620 -> Item 22
+  - Refers to item: Line (location: source ID 27, line 28, chars 734-801, hits: 0)
+- IC 620 -> Item 23
+  - Refers to item: Statement (location: source ID 27, line 28, chars 734-801, hits: 0)
+- IC 654 -> Item 24
+  - Refers to item: Branch (branch: 0, path: 0) (location: source ID 27, line 28, chars 734-801, hits: 0)
+- IC 658 -> Item 25
+  - Refers to item: Branch (branch: 0, path: 1) (location: source ID 27, line 28, chars 734-801, hits: 0)
+
